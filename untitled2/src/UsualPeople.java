@@ -1,8 +1,6 @@
 public class UsualPeople implements People{
-    String name;
-    public UsualPeople(String str){
-        name = str;
-    }
+    private String name = "юселесс";
+
 
     @Override
     public void talk() {
